@@ -149,7 +149,7 @@ if __name__ == "__main__":
         history = model.fit(
             datagen.flow(X_train, y_train, batch_size=batch_size),
             validation_data=val_datagen.flow(X_val, y_val, batch_size=batch_size),
-            epochs=20,
+            epochs=25,
         )
 
         # Сохранение обученной модели
