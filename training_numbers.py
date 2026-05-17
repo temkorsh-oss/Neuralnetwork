@@ -149,11 +149,11 @@ if __name__ == "__main__":
         history = model.fit(
             datagen.flow(X_train, y_train, batch_size=batch_size),
             validation_data=val_datagen.flow(X_val, y_val, batch_size=batch_size),
-            epochs=25,
+            epochs=20,
         )
 
         # Сохранение обученной модели
-        model.save('ocr_license_plate_model_v1.h5')
+        model.save('ocr_license_plate_model_v1.keras')
 
         # Сохранение статистики обучения в CSV файл (Pandas)
         pd.DataFrame(history.history).to_csv('training_stats.csv', index=False)

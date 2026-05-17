@@ -21,7 +21,7 @@ from PyQt5.QtCore import Qt, QThread, pyqtSignal
 
 # ==================== НАСТРОЙКИ И ПУТИ К МОДЕЛЯМ ====================
 DETECTOR_PATH = 'runs/detect/runs/detect/plate_detector/weights/best.pt'
-READER_PATH = 'ocr_license_plate_model_v1.h5'
+READER_PATH = 'ocr_license_plate_model_v1.keras'
 
 IMG_WIDTH, IMG_HEIGHT = 128, 64
 CHAR_LIST = "0123456789ABEKMHOPCTYX"

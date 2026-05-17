@@ -78,4 +78,4 @@ def show_random_test(model_path, test_dir):
 
 if __name__ == "__main__":
     # Укажи путь к своей модели и папке test
-    show_random_test('ocr_license_plate_model_v1.h5', 'Dataset1/test')
+    show_random_test('ocr_license_plate_model_v1.keras', 'Dataset1/test')
