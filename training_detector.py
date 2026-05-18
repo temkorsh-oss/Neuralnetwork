@@ -29,7 +29,7 @@ def train_plate_detector():
     print("\nЗагрузка архитектуры YOLOv8 Nano...")
     model = YOLO('yolov8n.pt')
 
-    print("Старт обучения на высоких оборотах...\n")
+    print("Старт обучения...\n")
 
     try:
         model.train(
